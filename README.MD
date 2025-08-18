@@ -1,5 +1,5 @@
 ## <p align="center"> <b> GWfox 🦊 </b> </p>
-<p align="center">This theme compatible with Firefox 138+ on macOS & Windows *</p>
+<p align="center">This theme compatible with Firefox 138+ on macOS, Linux & Windows</p>
 <picture>
 <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/204bffdb-d37f-4a3e-98f6-c21e84b3b46d">
 <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/0a83cfb1-23ac-4458-8113-536b240d549b">
@@ -18,17 +18,20 @@
   - Set these to true
     - `toolkit.legacyUserProfileCustomizations.stylesheets`
     - `svg.context-properties.content.enabled`
-    - `widget.windows.mica` *
-    - `widget.windows.mica.toplevel-backdrop` set to `2` *
+    - _Linux:_ `widget.gtk.rounded-bottom-corners.enabled`
+    - _Windows:_ `widget.windows.mica`<br>
   - Set these to false
     - `sidebar.animation.enabled`
-    - `widget.macos.native-context-menus` (Optional)
+    - _macOS:_ `widget.macos.native-context-menus` (_Optional_)
+  - `widget.windows.mica.toplevel-backdrop` set to `2` (_Windows_)
 - Restart Firefox!
 
 ## Further customization
 
-If you would like to have your Bookmark toolbar hidden at the bottom, address bar in the sidebar, macOS style window controls & simple mode, add `gwfox.plus` set to `true` in your `about:config`
-  - Add `gwfox.atbc` to enable [Adaptive Tab Bar Colour](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)
+- If you would like to have your Bookmark toolbar hidden at the bottom, address bar in the sidebar, macOS style window controls & simple mode, add `gwfox.plus` set to `true` in your `about:config`
+  - `gwfox.plus` without macOS style window controls: add `gwfox.plus_win` set to `true` (_Windows_)
+- Remove border from horizontal tabs: add `gwfox.noborder` set to `true`
+- Add `gwfox.atbc` to enable [Adaptive Tab Bar Colour](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)
 
 <details><summary>Preview</summary>
 <br>
@@ -39,7 +42,7 @@ If you would like to have your Bookmark toolbar hidden at the bottom, address ba
 
 ## 简介
 
-- 本主题适用Firefox 138+ macOS & Windows *
+- 本主题适用Firefox 138+ macOS, Linux & Windows
 
 ## 使用方法
 
@@ -47,17 +50,20 @@ If you would like to have your Bookmark toolbar hidden at the bottom, address ba
 - 在 `about:config` 页面中搜索以下布尔值切换为 `true`
   - `toolkit.legacyUserProfileCustomizations.stylesheets`
   - `svg.context-properties.content.enabled`
-  - `widget.windows.mica` *
-  - `widget.windows.mica.toplevel-backdrop` 设为 `2` *
+  - _Linux:_ `widget.gtk.rounded-bottom-corners.enabled`
+  - _Windows:_ `widget.windows.mica`<br>
 - 以下布尔值切换为 `false`
   - `sidebar.animation.enabled`
-  - `widget.macos.native-context-menus` (可选项)
+  - _macOS:_ `widget.macos.native-context-menus` (_可选项_)
+- `widget.windows.mica.toplevel-backdrop` 设为 `2` (_Windows_)
 - 重启火狐
 
 ## 样式调整
 
-书签工具栏隐藏至底部，地址栏置于侧栏，macOS样式窗口控件及简洁模式，在 `about:config` 页面添加 `gwfox.plus` 设为 `true` 启用
-  - 添加 `gwfox.atbc` 启用 [变色标签栏](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)
+- 书签工具栏隐藏至底部，地址栏置于侧栏，macOS样式窗口控件及简洁模式，在 `about:config` 页面添加 `gwfox.plus` 设为 `true` 启用
+  - `gwfox.plus` 不使用macOS样式窗口控件：添加 `gwfox.plus_win` 设为 `true` (_Windows_)
+- 移除水平标签页的边框：添加 `gwfox.noborder` 设为 `true`
+- 添加 `gwfox.atbc` 启用 [变色标签栏](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)
 
 <details><summary>预览</summary>
 <br>
