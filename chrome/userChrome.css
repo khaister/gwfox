@@ -249,7 +249,8 @@
 }
 
 #urlbar-container {
-  max-width: 219px !important;
+  max-width: 619px !important;
+  width: 600px !important;
 }
 
 #TabsToolbar {
