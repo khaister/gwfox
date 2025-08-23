@@ -31,10 +31,10 @@
 
 These configurations can be set in `about:config` to customize the appearance and behavior of the theme.
 
-| Configuration Key     | Description                                                                                                  |
-|-----------------------|--------------------------------------------------------------------------------------------------------------|
-| `gwfox.plus`          | Bookmark toolbar hidden at the bottom, address bar in the sidebar, macOS style window controls & simple mode |
-| `gwfox.plus_sc`       | Same as `gwfox.plus` but without macOS style window controls                                                 |
-| `gwfox.noborder`      | Remove border from horizontal tabs                                                                           |
-| `gwfox.atbc`          | Enable [Adaptive Tab Bar Colour](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)           |
-| `gwfox.bms`           | Enable blur effects using [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell)         |
+| Configuration Key     | Description                                                                                                       |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------|
+| `gwfox.plus`          | Hide bookmark toolbar, keep address bar in the sidebar, & enable macOS style window controls                      |
+| `gwfox.plus_sc`       | Same as `gwfox.plus` but without macOS style window controls                                                      |
+| `gwfox.noborder`      | Remove window border when horizontal tabs is enabled                                                              |
+| `gwfox.atbc`          | Enable [Adaptive Tab Bar Colour](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)                |
+| `gwfox.bms`           | (Linux only) Enable blur effects using [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell) |
