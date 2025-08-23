@@ -29,16 +29,10 @@
 ## Further customization
 
 - If you would like to have your Bookmark toolbar hidden at the bottom, address bar in the sidebar, macOS style window controls & simple mode, add `gwfox.plus` set to `true` in your `about:config`
-  - `gwfox.plus` without macOS style window controls: add `gwfox.plus_win` set to `true` (_Windows_)
+  - `gwfox.plus` without macOS style window controls: add `gwfox.plus_sc` set to `true`
 - Remove border from horizontal tabs: add `gwfox.noborder` set to `true`
 - Add `gwfox.atbc` to enable [Adaptive Tab Bar Colour](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)
-
-<details><summary>Preview</summary>
-<br>
-
-[01.webm](https://github.com/user-attachments/assets/0f24f538-67eb-42e2-a483-b4a8a8e75603)
-
-</details>
+- Add `gwfox.bms` enable blur effects using [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell)
 
 ## 简介
 
@@ -61,13 +55,7 @@
 ## 样式调整
 
 - 书签工具栏隐藏至底部，地址栏置于侧栏，macOS样式窗口控件及简洁模式，在 `about:config` 页面添加 `gwfox.plus` 设为 `true` 启用
-  - `gwfox.plus` 不使用macOS样式窗口控件：添加 `gwfox.plus_win` 设为 `true` (_Windows_)
+  - `gwfox.plus` 不使用macOS样式窗口控件：添加 `gwfox.plus_sc` 设为 `true`
 - 移除水平标签页的边框：添加 `gwfox.noborder` 设为 `true`
 - 添加 `gwfox.atbc` 启用 [变色标签栏](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-colour)
-
-<details><summary>预览</summary>
-<br>
-
-[01.webm](https://github.com/user-attachments/assets/0f24f538-67eb-42e2-a483-b4a8a8e75603)
-
-</details>
+- 添加 `gwfox.bms` 使用 [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell) 启用模糊特效
